@@ -2,17 +2,19 @@
   "name": "making-react-fast",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "react": "16.7.0",
     "react-dom": "16.7.0",
-    "spectacle-scripts": "2.3.0",
-    "spectacle-theme-nova": "^1.4.1"
+    "spectacle-scripts": "2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && surge -p .",
+    "export": "spectacle-renderer --delay 3000"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -22,8 +24,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "babel-plugin-wildcard": "^5.0.0"
-  }
+  ]
 }

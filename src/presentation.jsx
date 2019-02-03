@@ -1,6 +1,6 @@
 // Import React
 import React from "react";
-import * as Slides from "./slides";
+import { One, Two, Three } from "./slides";
 
 // Import Spectacle Core tags
 import { Deck } from "spectacle";
@@ -34,9 +34,9 @@ export default class Presentation extends React.Component {
         transitionDuration={500}
         theme={theme}
       >
-        {Object.values(Slides).map((Elem, i) => {
-          return <Elem key={i} />;
-        })}
+        <One />
+        <Two />
+        <Three />
       </Deck>
     );
   }
