@@ -4,8 +4,8 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "react": "16.7.0",
-    "react-dom": "16.7.0",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
     "spectacle-scripts": "2.3.0"
   },
   "scripts": {
@@ -13,11 +13,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && surge -p .",
     "export": "spectacle-renderer --delay 3000"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "resolutions": {
+    "terser": "3.16.1"
   },
   "browserslist": [
     ">0.2%",
@@ -26,6 +28,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "spectacle-renderer": "^0.0.3"
+    "spectacle-renderer": "0.0.3",
+    "terser": "3.16.1",
+    "terser-webpack-plugin": "^1.2.2"
   }
 }
