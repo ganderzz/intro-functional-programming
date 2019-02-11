@@ -13,7 +13,7 @@ export default function() {
       </Text>
 
       <Text bold textColor="dark">
-        Updating attributes will update the underlying DOM
+        Updating attributes will reuse the underlying DOM
       </Text>
 
       <div style={{ marginTop: 40 }}>

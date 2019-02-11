@@ -9,11 +9,12 @@ export default function() {
   return (
     <Slide bgColor="primary" textAlign="left" notes={notes}>
       <Text textSize={22} italic>
-        A child element containing a consistent key prop is likely stable
+        The developer can hint at which child elements may be stable across
+        different renders with a key prop
       </Text>
 
       <Text bold textColor="dark">
-        Keys
+        Static lists are easy to see what got added, removed, or moved
       </Text>
 
       <div style={{ display: "flex", flexDirection: "row", marginTop: 60 }}>

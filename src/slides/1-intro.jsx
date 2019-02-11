@@ -2,7 +2,10 @@ import React from "react";
 import { Heading, Slide, Text } from "spectacle";
 
 const notes = `
-  Introduction
+  Introduction<br />
+  - Name<br />
+  - Title & Company<br /><br />
+  We will be looking at easy wins to make React fast
 `;
 
 export default function() {
