@@ -1,0 +1,23 @@
+function lessThan(item, list) {
+  return list.filter(p => p < item);
+}
+
+function greaterThan(item, list) {
+  return list.filter(p => p >= item);
+}
+
+function quickSort(list) {
+  // Get first element from list
+  const [head, ...rest] = list;
+
+  const less = lessThan(head, rest);
+  const greater = greaterThan(head, rest);
+
+  return [
+    ...(less.length > 0 ? quickSort(less) : []),
+    head,
+    ...(greater.length > 0 ? quickSort(greater) : [])
+  ];
+}
+
+// https://codesandbox.io/s/yvw14q33q1?fontsize=14
