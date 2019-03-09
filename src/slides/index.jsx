@@ -1,4 +1,6 @@
 export { default as One } from "./1-intro";
+export { default as Quote } from "./quote";
+export { default as Benefits } from "./benefits";
 export { default as Two } from "./2-what-is-func";
 export { default as Three } from "./3-first-class-func";
 export { default as Four } from "./4-pure";

@@ -26,10 +26,6 @@ export default function() {
         <Appear>
           <ListItem>Immutable</ListItem>
         </Appear>
-
-        <Appear>
-          <ListItem>Recursive</ListItem>
-        </Appear>
       </List>
     </Slide>
   );

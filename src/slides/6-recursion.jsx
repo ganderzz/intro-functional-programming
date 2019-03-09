@@ -19,7 +19,7 @@ export default function() {
       </Text>
 
       <CodePane
-        source={require("raw-loader!./source/recursive.example")
+        source={require("raw-loader!./source/f-quicksort.example")
           .replace(/\\r\\n/g, "\n")
           .replace('module.exports = "', "")
           .replace(/\"/g, "")}

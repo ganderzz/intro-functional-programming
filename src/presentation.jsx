@@ -33,6 +33,7 @@ export default class Presentation extends React.Component {
         transition={["slide"]}
         transitionDuration={500}
         theme={theme}
+        controls={false}
       >
         {Object.values(Slides).map((Slide, i) => Slide())}
       </Deck>
