@@ -1,13 +1,6 @@
 ## Outline
 
-**Title:** Making ReactJS Wicked Fast
-**Summary:** React is already fast, but sometimes we need to squeeze out more power. We'll look at common reasons why React is runs slow, and how we can detect these issues.
-**Outline:**
+**Title:** Introduction to Functional Programming
+**Summary:** Functional programming (fp) isn't just crazy words like monad and applicative functor. Using fp techniques in classic languages can give huge benefits in code maintainability, readability, and simplicity. It also makes domains vastly easier to reason about like concurrency/asyc.
 
-- What happens when React needs to rerender (reconciliation)
-- PureComponent vs Component
-- Not everything is state/props (these values changing can cause unneeded renders)
-- Memoize computed props
-- Keys
-- ShouldComponentUpdate()
-- React Dev Tools
+This talk will go through the basic ideas of functional programming, while leaving out the goofy terminology and fringe programming languages.
