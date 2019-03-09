@@ -19,18 +19,18 @@ export default function() {
   return (
     <Slide bgColor="primary" textAlign="center" notes={notes}>
       <Text bold textColor="tertiary" textSize="2rem">
-        Benefits of being Functional
+        Benefits of Being Functional
       </Text>
 
       <List>
-        <ListItem margin="15px 0 0 0">Less mental load</ListItem>
+        <ListItem margin="15px 0 0 0">Easier to Reason About</ListItem>
 
         <ListItem margin="15px 0 0 0">Repeatability</ListItem>
 
-        <ListItem margin="15px 0 0 0">Easier to test</ListItem>
+        <ListItem margin="15px 0 0 0">Easier to Test</ListItem>
 
         <ListItem margin="15px 0 0 0">
-          Greatly reduced concurency challenges
+          Greatly reduced Concurency Challenges
         </ListItem>
       </List>
     </Slide>

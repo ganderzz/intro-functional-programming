@@ -1,7 +1,5 @@
-const date = new Date();
-
 function notPureAdd(a, b) {
-  return a + date.getMilliseconds();
+  return a + new Date().getMilliseconds();
 }
 
 function pureAdd(a, b) {

@@ -14,8 +14,7 @@ export default function() {
       </Text>
 
       <Text style={{ marginTop: 20, marginBottom: 30 }}>
-        Functions only perform work on the arguments given <br />
-        (Referential transparency)
+        Functions only perform work on the arguments given
       </Text>
 
       <CodePane

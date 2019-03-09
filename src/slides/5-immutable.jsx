@@ -13,14 +13,14 @@ export default function() {
         Immutable
       </Text>
 
-      <Text style={{ marginTop: 20, marginBottom: 30 }}>
+      <Text style={{ marginTop: 10, marginBottom: 20 }}>
         Once a value is set, it never changes
       </Text>
 
       <CodePane
         source={require("raw-loader!./source/immutable")}
         lang="javascript"
-        style={{ fontSize: "2.3rem" }}
+        style={{ fontSize: "1.7rem" }}
       />
     </Slide>
   );

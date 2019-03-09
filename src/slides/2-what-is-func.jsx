@@ -2,9 +2,8 @@ import React from "react";
 import { Appear, List, ListItem, Slide, Text } from "spectacle";
 
 const notes = `
-  Introduction<br />
-  - Name<br />
-  - Title & Company<br /><br />
+  Functional programming is another paradigm or midset for writing code.
+  It is an alternative mindset compared to imperative and OOP, for example.
 `;
 
 export default function() {
@@ -16,15 +15,15 @@ export default function() {
 
       <List>
         <Appear>
-          <ListItem>First-Class Functions</ListItem>
+          <ListItem style={{ marginTop: 15 }}>Immutable</ListItem>
         </Appear>
 
         <Appear>
-          <ListItem>Pure</ListItem>
+          <ListItem style={{ marginTop: 15 }}>Pure/Side Effect Free</ListItem>
         </Appear>
 
         <Appear>
-          <ListItem>Immutable</ListItem>
+          <ListItem style={{ marginTop: 15 }}>Functions as Values</ListItem>
         </Appear>
       </List>
     </Slide>

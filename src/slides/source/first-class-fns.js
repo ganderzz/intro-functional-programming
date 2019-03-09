@@ -1,7 +1,6 @@
-function myFunc(f) {
-  return f();
+function robot(voiceBox) {
+  return voiceBox("bzzzz");
 }
 
-const parent = myFunc;
-
-parent(console.log);
+robot(console.log);
+robot(alert);
