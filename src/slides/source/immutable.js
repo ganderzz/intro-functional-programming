@@ -3,11 +3,11 @@ const obj = {
   b: 2
 };
 
-function doStuff(input) {
+function addOne(input) {
   return {
     a: input.a + 1,
     b: input.b + 1
   };
 }
 
-const newObj = doStuff(obj);
+const newObj = addOne(obj);

@@ -2,6 +2,9 @@ import React from "react";
 import { List, ListItem, Slide, Text } from "spectacle";
 
 const notes = `
+  Code that can easily change is super valuable. This can be extremely difficult
+  with mutations and inheritence. Composition allows for more managable parts.
+
   - Less Mental Load: Due to immutability contraints and pure functions, the 
   state of an application has clear-cut, visible ways it changes. Mutability loses this.
   <br /><br />
@@ -23,9 +26,7 @@ export default function() {
       </Text>
 
       <List>
-        <ListItem margin="15px 0 0 0">Easier to Reason About</ListItem>
-
-        <ListItem margin="15px 0 0 0">Repeatability</ListItem>
+        <ListItem margin="15px 0 0 0">Predictable state change</ListItem>
 
         <ListItem margin="15px 0 0 0">Easier to Test</ListItem>
 

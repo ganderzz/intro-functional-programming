@@ -10,5 +10,3 @@ function quickSort(list) {
     ...(greaterThanHead.length > 0 ? quickSort(greaterThanHead) : [])
   ];
 }
-
-// https://codesandbox.io/s/yvw14q33q1?fontsize=14
