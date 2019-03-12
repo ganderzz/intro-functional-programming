@@ -26,13 +26,11 @@ export default function() {
       </Text>
 
       <List>
-        <ListItem margin="15px 0 0 0">Predictable state change</ListItem>
+        <ListItem margin="15px 0 0 0">Predictable</ListItem>
 
-        <ListItem margin="15px 0 0 0">Easier to Test</ListItem>
+        <ListItem margin="15px 0 0 0">Easy to Test</ListItem>
 
-        <ListItem margin="15px 0 0 0">
-          Greatly reduced Concurency Challenges
-        </ListItem>
+        <ListItem margin="15px 0 0 0">Reduced Concurency Challenges</ListItem>
       </List>
     </Slide>
   );
