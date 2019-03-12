@@ -18,7 +18,11 @@ export default function() {
       </Text>
 
       <CodePane
-        source={require("raw-loader!./source/pure")}
+        source={require("raw-loader!./source/pure")
+          .replace(/\\r\\n/g, "\n")
+          .replace(/\\n/g, "\n")
+          .replace('module.exports = "', "")
+          .replace(/\"/g, "")}
         lang="javascript"
         style={{ fontSize: "2.3rem" }}
       />

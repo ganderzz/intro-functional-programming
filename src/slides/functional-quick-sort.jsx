@@ -13,21 +13,11 @@ export default function() {
         Quick Sort
       </Text>
 
-      <CodePane
-        source={require("raw-loader!./source/f-quicksort.example")
-          .replace(/\\r\\n/g, "\n")
-          .replace(/\\n/g, "\n")
-          .replace('module.exports = "', "")
-          .replace(/\"/g, "")}
-        lang="javascript"
-        style={{ fontSize: "1.7rem" }}
+      <iframe
+        style={{ width: "100%", height: "90vh" }}
+        src="https://codesandbox.io/embed/yvw14q33q1?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Findex.js"
+        sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
       />
-
-      <Text textSize="1rem">
-        <a href="https://codesandbox.io/s/yvw14q33q1?fontsize=14">
-          https://codesandbox.io/s/yvw14q33q1?fontsize=14
-        </a>
-      </Text>
     </Slide>
   );
 }

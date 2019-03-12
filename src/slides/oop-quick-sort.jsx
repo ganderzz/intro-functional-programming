@@ -13,14 +13,10 @@ export default function() {
         Quick Sort
       </Text>
 
-      <CodePane
-        source={require("raw-loader!./source/oop-quicksort.example")
-          .replace(/\\r\\n/g, "\n")
-          .replace(/\\n/g, "\n")
-          .replace('module.exports = "', "")
-          .replace(/\"/g, "")}
-        lang="javascript"
-        style={{ fontSize: "0.5rem" }}
+      <iframe
+        style={{ width: "100%", height: "90vh" }}
+        src="https://codesandbox.io/embed/rwxomqlkw4?fontsize=14&hidenavigation=1"
+        sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
       />
     </Slide>
   );
