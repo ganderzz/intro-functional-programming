@@ -1,5 +1,5 @@
 import React from "react";
-import { List, ListItem, Slide, Text } from "spectacle";
+import { List, ListItem, Slide, Text, Appear } from "spectacle";
 
 const notes = `
   Code that can easily change is super valuable. This can be extremely difficult
@@ -26,11 +26,17 @@ export default function() {
       </Text>
 
       <List>
-        <ListItem margin="15px 0 0 0">Predictable</ListItem>
+        <Appear>
+          <ListItem margin="15px 0 0 0">Predictable</ListItem>
+        </Appear>
 
-        <ListItem margin="15px 0 0 0">Easy to Test</ListItem>
+        <Appear>
+          <ListItem margin="15px 0 0 0">Easy to Test</ListItem>
+        </Appear>
 
-        <ListItem margin="15px 0 0 0">Reduced Concurency Challenges</ListItem>
+        <Appear>
+          <ListItem margin="15px 0 0 0">Reduced Concurency Challenges</ListItem>
+        </Appear>
       </List>
     </Slide>
   );
