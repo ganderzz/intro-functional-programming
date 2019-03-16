@@ -1,5 +1,5 @@
 import React from "react";
-import { CodePane, Slide, Text } from "spectacle";
+import { Slide, Text } from "spectacle";
 
 const notes = `
   Show reduce, map, and filter
@@ -16,7 +16,7 @@ export default function() {
       <a
         class="jsbin-embed"
         target="_blank"
-        href="https://jsbin.com/jaqaxisofu/edit?js,console"
+        href="https://jsbin.com/pehifoxudi/edit?js,console"
       >
         CLICK HERE
       </a>
