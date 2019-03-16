@@ -19,11 +19,12 @@ export default function() {
       </Text>
 
       <CodePane
-        source={require("raw-loader!./source/first-class-fns")
-          .replace(/\\r\\n/g, "\n")
-          .replace(/\\n/g, "\n")
-          .replace('module.exports = "', "")
-          .replace(/\"/g, "")}
+        source={`function robot(voiceBox) {
+  return voiceBox("bzzzz");
+}
+        
+robot(console.log);
+robot(alert);`}
         lang="javascript"
         style={{ fontSize: "2.3rem" }}
       />

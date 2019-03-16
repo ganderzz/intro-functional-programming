@@ -18,11 +18,13 @@ export default function() {
       </Text>
 
       <CodePane
-        source={require("raw-loader!./source/pure")
-          .replace(/\\r\\n/g, "\n")
-          .replace(/\\n/g, "\n")
-          .replace('module.exports = "', "")
-          .replace(/\"/g, "")}
+        source={`function notPureAdd(a, b) {
+  return a + new Date().getMilliseconds();
+}
+
+function pureAdd(a, b) {
+  return a + b;
+}`}
         lang="javascript"
         style={{ fontSize: "2.3rem" }}
       />

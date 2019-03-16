@@ -18,11 +18,19 @@ export default function() {
       </Text>
 
       <CodePane
-        source={require("raw-loader!./source/immutable")
-          .replace(/\\r\\n/g, "\n")
-          .replace(/\\n/g, "\n")
-          .replace('module.exports = "', "")
-          .replace(/\"/g, "")}
+        source={`const obj = {
+  a: 1,
+  b: 2
+};
+
+function addOne(input) {
+  return {
+    a: input.a + 1,
+    b: input.b + 1
+  };
+}
+
+const newObj = addOne(obj);`}
         lang="javascript"
         style={{ fontSize: "1.7rem" }}
       />
