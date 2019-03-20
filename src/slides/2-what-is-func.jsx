@@ -2,8 +2,9 @@ import React from "react";
 import { Appear, List, ListItem, Slide, Text } from "spectacle";
 
 const notes = `
-  Functional programming is another paradigm or midset for writing code.
-  It is an alternative mindset compared to imperative and OOP, for example.
+  Just like OOP, a functional style of programming has many different design patterns
+  and ideas that make it up, but as an introduction, I believe there are
+  three big foudations to functional programming.
 `;
 
 export default function() {

@@ -1,5 +1,5 @@
 import React from "react";
-import { List, ListItem, Slide, Text } from "spectacle";
+import { Slide, Text } from "spectacle";
 
 const notes = `
   Comparing imperative/oop and functional quicksort

@@ -30,7 +30,9 @@ function addOne(input) {
   };
 }
 
-const newObj = addOne(obj);`}
+const newObj = addOne(obj);
+
+newObj === obj // false`}
         lang="javascript"
         style={{ fontSize: "1.7rem" }}
       />

@@ -1,5 +1,5 @@
 import React from "react";
-import { CodePane, Slide, Text } from "spectacle";
+import { Slide, Text } from "spectacle";
 
 const notes = `
   Functional example of quick sort
