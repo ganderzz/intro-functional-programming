@@ -14,4 +14,8 @@ export { default as fquick } from "./functional-quick-sort";
 
 export { default as Benefits } from "./benefits";
 
+export { default as predictable } from "./predictable";
+export { default as testable } from "./testable";
+export { default as async } from "./async";
+
 export { default as Questions } from "./999-questions";
