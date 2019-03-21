@@ -2,7 +2,7 @@ import React from "react";
 import { Slide, Text, BlockQuote } from "spectacle";
 
 const notes = `
-  John Carmack, founder of ID Software and creator of DOOM, has
+  John Carmack, creator of DOOM & Quake and now works at Oculus, has
   this quote on functional programming in C++. 
 `;
 

@@ -3,18 +3,24 @@ import { Heading, Slide, Text } from "spectacle";
 import { Logo } from "./components/Logo";
 
 const notes = `
-  Introduction
+  I'm a Software Engineer at SEL were I work on applications for manufacturing. This is an area 
+  that really benefits from the talk I'm doing today. The systems we build are dynamic, and have to work
+  even when there is no internet. In this area, functional programming helps immensely. 
   <br />
   <br />
-  I'm a Software Engineer at SEL where we're
-  Making Electric Power Safer, More Reliable, and More Economical®
+  At SEL we design and build products that protect power grids around the world.
+  <br />
+  Our mission is to make Electric Power Safer, More Reliable, and More Economical®
+  <br />
   <br />
   Functional programming has a myriad of benefits that we'll cover later on,
   but for this talk I mainly want to introduce a different way to think about problems.
   <br />
   Most programmers code in an imperative or OOP paradigm; Functional programming is just another
-  way of thinking about problems. As a programmer, if we know multiple paradigms we'll have more tools to
-  solve problems.
+  tools to solve problems.
+  <br />
+  <br />
+  Personally, after learning just the basic ideas of functional programming my code quality sky-rocketed.
 `;
 
 export default function() {
