@@ -20,7 +20,7 @@ const notes = `
   tools to solve problems.
   <br />
   <br />
-  Personally, after learning just the basic ideas of functional programming my code quality sky-rocketed.
+  Overview/outline...
 `;
 
 export default function() {
