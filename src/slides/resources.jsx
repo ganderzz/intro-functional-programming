@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Text, Link } from "spectacle";
+import { Slide, Text, Link, List, ListItem } from "spectacle";
 
 const notes = `
   RESOURCES!
@@ -12,22 +12,41 @@ export default function() {
       <Text bold textColor="tertiary" textSize="2rem">
         Resources
       </Text>
-      
-      <Link
-        target="_blank"
-        style={{ display: "block", marginTop: 20 }}
-        href="https://github.com/ganderzz/intro-functional-programming"
-      >
-        Slides & Code Examples
-      </Link>
 
-      <Link
-        target="_blank"
-        style={{ display: "block", marginTop: 10 }}
-        href="https://mostly-adequate.gitbooks.io/mostly-adequate-guide/"
-      >
-        Professor Frisby's Most Adequate Guide to Functional Programming
-      </Link>
+      <List>
+        <ListItem>
+          <Link
+            target="_blank"
+            href="https://github.com/ganderzz/intro-functional-programming"
+          >
+            Slides & Code Examples
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link
+            target="_blank"
+            href="https://jsbin.com/femoburako/1/edit?js,console"
+          >
+            JS Bin Example of Map/Filter/Reduce
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link
+            target="_blank"
+            href="https://mostly-adequate.gitbooks.io/mostly-adequate-guide/"
+          >
+            Professor Frisby's Most Adequate Guide to Functional Programming
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link
+            target="_blank"
+            href="https://github.com/getify/functional-light-js"
+          >
+            Functional Light JavaScript (Book)
+          </Link>
+        </ListItem>
+      </List>
     </Slide>
   );
 }
